@@ -20,6 +20,7 @@ SECRET_KEY = os.getenv(
 DEBUG = os.getenv("DEBUG", "True") == "True"
 
 ALLOWED_HOSTS = [
+"backend-1glw.onrender.com",
 "127.0.0.1",
 "localhost",
 ]
@@ -193,7 +194,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
  # CORS
  # =====================================================
 
-CORS_ALLOW_ALL_ORIGINS = "https://frontend-nine-rho-77.vercel.app/"
+CORS_ALLOW_ALL_ORIGINS = ["https://frontend-nine-rho-77.vercel.app"]
 
 CORS_ALLOW_CREDENTIALS = True
 
