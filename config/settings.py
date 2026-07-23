@@ -193,7 +193,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
  # CORS
  # =====================================================
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = "https://frontend-nine-rho-77.vercel.app/"
 
 CORS_ALLOW_CREDENTIALS = True
 
@@ -202,7 +202,7 @@ CORS_ALLOW_CREDENTIALS = True
  # =====================================================
 
 CSRF_TRUSTED_ORIGINS = [
- "http://localhost:5173",
+ "http://localhost:5173","https://frontend-nine-rho-77.vercel.app/"
  ]
 
 # =====================================================
